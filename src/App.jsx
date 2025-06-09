@@ -1,23 +1,22 @@
 import { BrowserRouter, Route, Routes } from "react-router";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Product from "./pages/Product";
+import Master from "./layout/Master";
 
 const App = () => {
   return (
     <div>
-       <Header/>
-       <Navbar/>
-
        <BrowserRouter>
           <Routes>
-              <Route path="home" element={ <Home/>}/>
-              <Route path="product" element={ <Product/>} />
+
+              <Route path="/" element={<Master/>}>
+                  <Route index element={<Home/>}/>
+                  <Route path="product" element={<Product/>}/>
+              </Route>
+
           </Routes>
        </BrowserRouter>
 
-      
     </div>
   );
 }
