@@ -5,11 +5,15 @@ import Navbar from "../components/Navbar";
 const Master = () => {
     return (
         <div>
+           
+
             <Header/>
             <Navbar/>
             <div className="main-content my-5">
-                <Outlet/>
+               <Outlet/>
             </div>
+
+
         </div>
     );
 }
