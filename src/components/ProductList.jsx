@@ -1,6 +1,19 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../stores/cartStore';
 
 const ProductList = ({data}) => {
+  const dispatch = useDispatch();
+
+  const status  = useSelector((state) => {
+    return state.cartStore.status
+  });
+
+  const handleAddToCart = (item) => {
+    dispatch(addToCart(item));
+  }
+
   return (
     <div className=' row p-0 m-0 my-4'>
         {
@@ -12,7 +25,14 @@ const ProductList = ({data}) => {
                             <div className="card-body">
                                 <h3>{ item.name || 'Default Name'}</h3>
                                 <p>{ item.price || 'Default Price'}</p>
-                                <button className="btn btn-primary">Add to Cart</button>
+
+                                <button className="btn btn-primary"
+                                    onClick={ () => handleAddToCart(item) }
+                                    disabled={status === 'loading'}
+                                >
+                                    {status === 'loading' ? 'Loading...' : 'Add to cart'}
+                                </button>
+                                
                             </div>
                         </div>
                     </div>

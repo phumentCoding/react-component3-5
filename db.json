@@ -1,295 +1,285 @@
 {
-    "sliders" : [
-
-    ],
+  "sliders": [],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Accessories"
+    },
+    {
+      "id": "2",
+      "name": "Phone"
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "1",
+      "name": "Headphones",
+      "category": 1
+    },
+    {
+      "id": "2",
+      "name": "Earphones",
+      "category": 1
+    },
+    {
+      "id": "3",
+      "name": "Chargers",
+      "category": 1
+    },
+    {
+      "id": "4",
+      "name": "Android",
+      "category": 2
+    },
+    {
+      "id": "5",
+      "name": "IOS",
+      "category": 2
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "id": "2",
+      "name": "Samsung",
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "id": "3",
+      "name": "Google",
+      "category": 2,
+      "subcategory": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "discription": "High-quality over-ear Bluetooth headphones with noise cancellation.",
+      "price": 30,
+      "qty": 10,
+      "category": 1,
+      "subcategory": 1,
+      "brand": null,
+      "image": "https://dummyjson.com/image/i/products/11/1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Apple iPhone 13",
+      "discription": "Powerful iOS smartphone with A15 Bionic chip and stunning camera.",
+      "price": 799,
+      "qty": 5,
+      "category": 2,
+      "subcategory": 5,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/2/1.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Samsung Galaxy S22",
+      "discription": "Flagship Android smartphone with dynamic AMOLED display.",
+      "price": 699,
+      "qty": 8,
+      "category": 2,
+      "subcategory": 4,
+      "brand": 2,
+      "image": "https://dummyjson.com/image/i/products/3/1.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Google Pixel 6",
+      "discription": "Smooth Android experience with Google Tensor chip.",
+      "price": 599,
+      "qty": 12,
+      "category": 2,
+      "subcategory": 4,
+      "brand": 3,
+      "image": "https://dummyjson.com/image/i/products/4/1.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Fast Charging Adapter",
+      "discription": "Compact USB-C charger compatible with all phones.",
+      "price": 25,
+      "qty": 20,
+      "category": 1,
+      "subcategory": 3,
+      "brand": null,
+      "image": "https://dummyjson.com/image/i/products/19/1.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Lightning Earphones",
+      "discription": "High-quality earphones with built-in mic for iOS devices.",
+      "price": 19,
+      "qty": 30,
+      "category": 1,
+      "subcategory": 2,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/26/1.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Samsung Fast Charger",
+      "discription": "Official Samsung 25W charger for Galaxy devices.",
+      "price": 28,
+      "qty": 15,
+      "category": 1,
+      "subcategory": 3,
+      "brand": 2,
+      "image": "https://dummyjson.com/image/i/products/19/2.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Bluetooth Neckband Earphones",
+      "discription": "Flexible neckband design with long battery life.",
+      "price": 35,
+      "qty": 18,
+      "category": 1,
+      "subcategory": 2,
+      "brand": null,
+      "image": "https://dummyjson.com/image/i/products/10/2.jpg"
+    },
+    {
+      "id": "9",
+      "name": "iPhone Charging Cable",
+      "discription": "Durable Lightning cable compatible with all Apple devices.",
+      "price": 10,
+      "qty": 50,
+      "category": 1,
+      "subcategory": 3,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/19/3.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Android Type-C Cable",
+      "discription": "Fast-charging USB-C cable for Android devices.",
+      "price": 8,
+      "qty": 40,
+      "category": 1,
+      "subcategory": 3,
+      "brand": 2,
+      "image": "https://dummyjson.com/image/i/products/19/4.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Apple AirPods Pro",
+      "discription": "Noise-cancelling wireless earbuds with spatial audio.",
+      "price": 199,
+      "qty": 10,
+      "category": 1,
+      "subcategory": 1,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/13/1.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Samsung Buds Live",
+      "discription": "Ergonomic wireless earbuds with active noise cancellation.",
+      "price": 120,
+      "qty": 12,
+      "category": 1,
+      "subcategory": 1,
+      "brand": 2,
+      "image": "https://dummyjson.com/image/i/products/12/1.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Pixel Buds A-Series",
+      "discription": "Google’s own lightweight wireless earbuds with deep bass.",
+      "price": 99,
+      "qty": 14,
+      "category": 1,
+      "subcategory": 1,
+      "brand": 3,
+      "image": "https://dummyjson.com/image/i/products/15/1.jpg"
+    },
+    {
+      "id": "14",
+      "name": "iPhone 13 Pro Max Case",
+      "discription": "Rugged and slim protective case for iPhone 13 Pro Max.",
+      "price": 20,
+      "qty": 25,
+      "category": 1,
+      "subcategory": 1,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/16/1.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Samsung Silicone Case",
+      "discription": "Soft-touch silicone back cover for Galaxy series.",
+      "price": 18,
+      "qty": 30,
+      "category": 1,
+      "subcategory": 1,
+      "brand": 2,
+      "image": "https://dummyjson.com/image/i/products/16/2.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Google Pixel Protective Cover",
+      "discription": "Durable, shock-resistant cover for Pixel devices.",
+      "price": 16,
+      "qty": 20,
+      "category": 1,
+      "subcategory": 1,
+      "brand": 3,
+      "image": "https://dummyjson.com/image/i/products/16/3.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Apple iPhone 12",
+      "discription": "Sleek and powerful with A14 chip and dual-camera system.",
+      "price": 599,
+      "qty": 6,
+      "category": 2,
+      "subcategory": 5,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/1/1.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Samsung Galaxy A52",
+      "discription": "Affordable Android smartphone with quad camera setup.",
+      "price": 349,
+      "qty": 10,
+      "category": 2,
+      "subcategory": 4,
+      "brand": 2,
+      "image": "https://dummyjson.com/image/i/products/6/1.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Google Pixel 5",
+      "discription": "Mid-range phone with clean Android and strong camera.",
+      "price": 499,
+      "qty": 7,
+      "category": 2,
+      "subcategory": 4,
+      "brand": 3,
+      "image": "https://dummyjson.com/image/i/products/8/1.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Noise Cancelling Headphones",
+      "discription": "Immersive over-ear headphones with superior sound quality.",
+      "price": 89,
+      "qty": 11,
+      "category": 1,
+      "subcategory": 1,
+      "brand": null,
+      "image": "https://dummyjson.com/image/i/products/11/2.jpg"
+    }
+  ],
+  "carts": [
     
-    "categories" : [
-        {
-            "id"  : 1,
-            "name" :"Accessories"
-        },
-        {
-            "id"  : 2,
-            "name" :"Phone"
-        }
-
-    ],
-    "subcategories" : [
-        {
-            "id"  : 1,
-            "name" :"Headphones",
-            "category" : 1
-        },
-        {
-            "id"  : 2,
-            "name" :"Earphones",
-            "category" : 1
-        },
-        {
-            "id"  : 3,
-            "name" :"Chargers",
-            "category" : 1
-        },
-        {
-            "id"  : 4,
-            "name" :"Android",
-            "category" : 2
-        },
-        {
-            "id"  : 5,
-            "name" :"IOS",
-            "category" : 2
-        }
-    ],
-
-    "brands" : [
-        {
-            "id"  : 1,
-            "name" :"Apple",
-            "category" : 2,
-            "subcategory" : 5
-        },
-        {
-            "id"  : 2,
-            "name" :"Samsung",
-            "category" : 2,
-            "subcategory" : 4
-        },
-        {
-            "id"  : 3,
-            "name" :"Google",
-            "category" : 2,
-            "subcategory" : 4
-        }
-    ],
-
-
-    "products" : [
-        {
-          "id": 1,
-          "name": "Wireless Headphones",
-          "discription": "High-quality over-ear Bluetooth headphones with noise cancellation.",
-          "price": 30,
-          "qty": 10,
-          "category": 1,
-          "subcategory": 1,
-          "brand": null,
-          "image": "https://dummyjson.com/image/i/products/11/1.jpg"
-        },
-        {
-          "id": 2,
-          "name": "Apple iPhone 13",
-          "discription": "Powerful iOS smartphone with A15 Bionic chip and stunning camera.",
-          "price": 799,
-          "qty": 5,
-          "category": 2,
-          "subcategory": 5,
-          "brand": 1,
-          "image": "https://dummyjson.com/image/i/products/2/1.jpg"
-        },
-        {
-          "id": 3,
-          "name": "Samsung Galaxy S22",
-          "discription": "Flagship Android smartphone with dynamic AMOLED display.",
-          "price": 699,
-          "qty": 8,
-          "category": 2,
-          "subcategory": 4,
-          "brand": 2,
-          "image": "https://dummyjson.com/image/i/products/3/1.jpg"
-        },
-        {
-          "id": 4,
-          "name": "Google Pixel 6",
-          "discription": "Smooth Android experience with Google Tensor chip.",
-          "price": 599,
-          "qty": 12,
-          "category": 2,
-          "subcategory": 4,
-          "brand": 3,
-          "image": "https://dummyjson.com/image/i/products/4/1.jpg"
-        },
-        {
-          "id": 5,
-          "name": "Fast Charging Adapter",
-          "discription": "Compact USB-C charger compatible with all phones.",
-          "price": 25,
-          "qty": 20,
-          "category": 1,
-          "subcategory": 3,
-          "brand": null,
-          "image": "https://dummyjson.com/image/i/products/19/1.jpg"
-        },
-        {
-          "id": 6,
-          "name": "Lightning Earphones",
-          "discription": "High-quality earphones with built-in mic for iOS devices.",
-          "price": 19,
-          "qty": 30,
-          "category": 1,
-          "subcategory": 2,
-          "brand": 1,
-          "image": "https://dummyjson.com/image/i/products/26/1.jpg"
-        },
-        {
-          "id": 7,
-          "name": "Samsung Fast Charger",
-          "discription": "Official Samsung 25W charger for Galaxy devices.",
-          "price": 28,
-          "qty": 15,
-          "category": 1,
-          "subcategory": 3,
-          "brand": 2,
-          "image": "https://dummyjson.com/image/i/products/19/2.jpg"
-        },
-        {
-          "id": 8,
-          "name": "Bluetooth Neckband Earphones",
-          "discription": "Flexible neckband design with long battery life.",
-          "price": 35,
-          "qty": 18,
-          "category": 1,
-          "subcategory": 2,
-          "brand": null,
-          "image": "https://dummyjson.com/image/i/products/10/2.jpg"
-        },
-        {
-          "id": 9,
-          "name": "iPhone Charging Cable",
-          "discription": "Durable Lightning cable compatible with all Apple devices.",
-          "price": 10,
-          "qty": 50,
-          "category": 1,
-          "subcategory": 3,
-          "brand": 1,
-          "image": "https://dummyjson.com/image/i/products/19/3.jpg"
-        },
-        {
-          "id": 10,
-          "name": "Android Type-C Cable",
-          "discription": "Fast-charging USB-C cable for Android devices.",
-          "price": 8,
-          "qty": 40,
-          "category": 1,
-          "subcategory": 3,
-          "brand": 2,
-          "image": "https://dummyjson.com/image/i/products/19/4.jpg"
-        },
-        {
-          "id": 11,
-          "name": "Apple AirPods Pro",
-          "discription": "Noise-cancelling wireless earbuds with spatial audio.",
-          "price": 199,
-          "qty": 10,
-          "category": 1,
-          "subcategory": 1,
-          "brand": 1,
-          "image": "https://dummyjson.com/image/i/products/13/1.jpg"
-        },
-        {
-          "id": 12,
-          "name": "Samsung Buds Live",
-          "discription": "Ergonomic wireless earbuds with active noise cancellation.",
-          "price": 120,
-          "qty": 12,
-          "category": 1,
-          "subcategory": 1,
-          "brand": 2,
-          "image": "https://dummyjson.com/image/i/products/12/1.jpg"
-        },
-        {
-          "id": 13,
-          "name": "Pixel Buds A-Series",
-          "discription": "Google’s own lightweight wireless earbuds with deep bass.",
-          "price": 99,
-          "qty": 14,
-          "category": 1,
-          "subcategory": 1,
-          "brand": 3,
-          "image": "https://dummyjson.com/image/i/products/15/1.jpg"
-        },
-        {
-          "id": 14,
-          "name": "iPhone 13 Pro Max Case",
-          "discription": "Rugged and slim protective case for iPhone 13 Pro Max.",
-          "price": 20,
-          "qty": 25,
-          "category": 1,
-          "subcategory": 1,
-          "brand": 1,
-          "image": "https://dummyjson.com/image/i/products/16/1.jpg"
-        },
-        {
-          "id": 15,
-          "name": "Samsung Silicone Case",
-          "discription": "Soft-touch silicone back cover for Galaxy series.",
-          "price": 18,
-          "qty": 30,
-          "category": 1,
-          "subcategory": 1,
-          "brand": 2,
-          "image": "https://dummyjson.com/image/i/products/16/2.jpg"
-        },
-        {
-          "id": 16,
-          "name": "Google Pixel Protective Cover",
-          "discription": "Durable, shock-resistant cover for Pixel devices.",
-          "price": 16,
-          "qty": 20,
-          "category": 1,
-          "subcategory": 1,
-          "brand": 3,
-          "image": "https://dummyjson.com/image/i/products/16/3.jpg"
-        },
-        {
-          "id": 17,
-          "name": "Apple iPhone 12",
-          "discription": "Sleek and powerful with A14 chip and dual-camera system.",
-          "price": 599,
-          "qty": 6,
-          "category": 2,
-          "subcategory": 5,
-          "brand": 1,
-          "image": "https://dummyjson.com/image/i/products/1/1.jpg"
-        },
-        {
-          "id": 18,
-          "name": "Samsung Galaxy A52",
-          "discription": "Affordable Android smartphone with quad camera setup.",
-          "price": 349,
-          "qty": 10,
-          "category": 2,
-          "subcategory": 4,
-          "brand": 2,
-          "image": "https://dummyjson.com/image/i/products/6/1.jpg"
-        },
-        {
-          "id": 19,
-          "name": "Google Pixel 5",
-          "discription": "Mid-range phone with clean Android and strong camera.",
-          "price": 499,
-          "qty": 7,
-          "category": 2,
-          "subcategory": 4,
-          "brand": 3,
-          "image": "https://dummyjson.com/image/i/products/8/1.jpg"
-        },
-        {
-          "id": 20,
-          "name": "Noise Cancelling Headphones",
-          "discription": "Immersive over-ear headphones with superior sound quality.",
-          "price": 89,
-          "qty": 11,
-          "category": 1,
-          "subcategory": 1,
-          "brand": null,
-          "image": "https://dummyjson.com/image/i/products/11/2.jpg"
-        }
-    ],      
-
-
-    "carts"   : [
-
-    ]
-    
+  ]
 }
