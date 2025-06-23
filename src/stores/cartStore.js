@@ -28,7 +28,7 @@ const cartStore = createSlice({
             state.status = 'success';
         })
         .addCase(getItemFromCart.fulfilled, (state, action) => {
-            state.carts = action.payload;
+            state.items = action.payload;
         })
     }
 })

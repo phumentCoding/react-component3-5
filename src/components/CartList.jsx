@@ -1,6 +1,12 @@
 import React from 'react'
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { getItemFromCart } from '../stores/cartStore';
 
 const CartList = ({ data, onIncrement, onDecrement, onRemove }) => {
+
+  
+
   const calculateTotal = () => {
     return data.reduce((sum, item) => sum + item.price * item.qty, 0).toFixed(2)
   }

@@ -290,6 +290,28 @@
       "subcategory": 5,
       "brand": 1,
       "image": "https://dummyjson.com/image/i/products/2/1.jpg"
+    },
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "discription": "High-quality over-ear Bluetooth headphones with noise cancellation.",
+      "price": 30,
+      "qty": 10,
+      "category": 1,
+      "subcategory": 1,
+      "brand": null,
+      "image": "https://dummyjson.com/image/i/products/11/1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Apple iPhone 13",
+      "discription": "Powerful iOS smartphone with A15 Bionic chip and stunning camera.",
+      "price": 799,
+      "qty": 5,
+      "category": 2,
+      "subcategory": 5,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/2/1.jpg"
     }
   ]
 }
