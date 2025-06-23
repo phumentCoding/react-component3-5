@@ -280,6 +280,16 @@
     }
   ],
   "carts": [
-    
+    {
+      "id": "2",
+      "name": "Apple iPhone 13",
+      "discription": "Powerful iOS smartphone with A15 Bionic chip and stunning camera.",
+      "price": 799,
+      "qty": 5,
+      "category": 2,
+      "subcategory": 5,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/2/1.jpg"
+    }
   ]
 }

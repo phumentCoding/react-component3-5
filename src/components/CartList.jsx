@@ -6,7 +6,7 @@ const CartList = ({ data, onIncrement, onDecrement, onRemove }) => {
   }
 
   return (
-    <div className="container">
+    <div className="my-3">
       {data && data.length > 0 ? (
         <>
           {data.map((item, index) => (

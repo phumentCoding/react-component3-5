@@ -4,8 +4,6 @@ import CartList from '../components/CartList'
 
 const Cart = () => {
 
-  
-
   const handleIncrement = () => {}
   const handleDecrement = () => {}
   const handleRemove = () => {}

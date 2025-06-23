@@ -30,7 +30,7 @@ const Home = () => {
                 <Category data={categories}/>
                 <ProductList data={products}/>
             </div>
-        </>
+                    </>
     );
 }
 
