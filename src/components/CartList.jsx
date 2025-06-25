@@ -5,7 +5,6 @@ import { getItemFromCart } from '../stores/cartStore';
 
 const CartList = ({ data, onIncrement, onDecrement, onRemove }) => {
 
-  
 
   const calculateTotal = () => {
     return data.reduce((sum, item) => sum + item.price * item.qty, 0).toFixed(2)
@@ -36,7 +35,7 @@ const CartList = ({ data, onIncrement, onDecrement, onRemove }) => {
                   <div className="btn-group" role="group">
                     <button
                       onClick={() => onDecrement(index)}
-                      className="btn btn-outline-secondary"
+                      className="btn btn-outline-dark"
                     >
                       -
                     </button>
@@ -52,7 +51,7 @@ const CartList = ({ data, onIncrement, onDecrement, onRemove }) => {
                 <div className="col-md-2 text-center">
                   <button
                     onClick={() => onRemove(index)}
-                    className="btn btn-outline-danger btn-sm"
+                    className="btn btn-outline-dark btn-sm"
                   >
                     Remove
                   </button>

@@ -281,37 +281,48 @@
   ],
   "carts": [
     {
-      "id": "2",
-      "name": "Apple iPhone 13",
-      "discription": "Powerful iOS smartphone with A15 Bionic chip and stunning camera.",
-      "price": 799,
-      "qty": 5,
+      "id": "3",
+      "name": "Samsung Galaxy S22",
+      "discription": "Flagship Android smartphone with dynamic AMOLED display.",
+      "price": 699,
+      "qty": 8,
       "category": 2,
-      "subcategory": 5,
-      "brand": 1,
-      "image": "https://dummyjson.com/image/i/products/2/1.jpg"
+      "subcategory": 4,
+      "brand": 2,
+      "image": "https://dummyjson.com/image/i/products/3/1.jpg"
     },
     {
-      "id": "1",
-      "name": "Wireless Headphones",
-      "discription": "High-quality over-ear Bluetooth headphones with noise cancellation.",
-      "price": 30,
-      "qty": 10,
+      "id": "6",
+      "name": "Lightning Earphones",
+      "discription": "High-quality earphones with built-in mic for iOS devices.",
+      "price": 19,
+      "qty": 30,
       "category": 1,
-      "subcategory": 1,
-      "brand": null,
-      "image": "https://dummyjson.com/image/i/products/11/1.jpg"
+      "subcategory": 2,
+      "brand": 1,
+      "image": "https://dummyjson.com/image/i/products/26/1.jpg"
     },
     {
-      "id": "2",
-      "name": "Apple iPhone 13",
-      "discription": "Powerful iOS smartphone with A15 Bionic chip and stunning camera.",
-      "price": 799,
-      "qty": 5,
+      "id": "18",
+      "name": "Samsung Galaxy A52",
+      "discription": "Affordable Android smartphone with quad camera setup.",
+      "price": 349,
+      "qty": 10,
+      "category": 2,
+      "subcategory": 4,
+      "brand": 2,
+      "image": "https://dummyjson.com/image/i/products/6/1.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Apple iPhone 12",
+      "discription": "Sleek and powerful with A14 chip and dual-camera system.",
+      "price": 599,
+      "qty": 6,
       "category": 2,
       "subcategory": 5,
       "brand": 1,
-      "image": "https://dummyjson.com/image/i/products/2/1.jpg"
+      "image": "https://dummyjson.com/image/i/products/1/1.jpg"
     }
   ]
 }
