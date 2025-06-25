@@ -21,7 +21,7 @@ const ProductList = ({data}) => {
                 return (
                     <div className="col-lg-3 col-md-4 mb-4" key={index}>
                         <div className="card">
-                            <img src={item.image || 'https://via.placeholder.com/240'} />
+                            <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500&h=500&fit=crop" />
                             <div className="card-body">
                                 <h3>{ item.name || 'Default Name'}</h3>
                                 <p>{ item.price || 'Default Price'}</p>
